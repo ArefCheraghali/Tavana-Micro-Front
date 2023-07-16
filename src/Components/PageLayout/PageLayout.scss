@@ -1,0 +1,28 @@
+.page-layout {
+	.page-title {
+		padding: 12px 0;
+		font-size: 18px;
+		border-bottom: 2px solid;
+		display: inline-block;
+		margin: 0;
+		color: #3b82f6;
+		font-weight: 600;
+		margin-bottom: 1em;
+	}
+	.page-container {
+		margin: 0;
+	}
+}
+.pre-search {
+	padding: 15px;
+	text-align: center;
+	width: 100%;
+	background-color: #eeeeee;
+	border-radius: 0;
+	box-shadow: 0px 0px 2px 0px #0000004a;
+	.pre-search-text {
+		margin: 0;
+		color: #555555;
+		font-size: 18px;
+	}
+}

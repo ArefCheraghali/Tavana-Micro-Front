@@ -1,0 +1,65 @@
+@import url("bootstrap");
+
+a {
+	text-decoration: none;
+}
+
+.p-float-label {
+	display: flex;
+	flex-direction: row-reverse;
+	> label {
+		right: 0.75rem;
+		left: auto;
+	}
+}
+
+.p-button {
+	padding: 0.5rem 1rem;
+	font-size: 0.8rem;
+}
+
+.p-datatable .p-paginator-bottom {
+	direction: ltr;
+}
+
+.p-datatable .p-datatable-tbody > tr > td {
+	text-align: right !important;
+}
+
+.form-bg {
+	margin: 30px 0;
+	padding: 30px 15px;
+	.form-row {
+		gap: 2em 0;
+	}
+}
+
+.dashboard {
+	display: flex;
+	.menu-bg {
+		flex-basis: 300px;
+		background: #f5f5f5;
+		border-left: 1px solid #d9d9d9;
+		.p-panelmenu .p-panelmenu-header-link {
+			display: flex;
+			width: 100%;
+			flex-direction: row-reverse;
+			text-align: right;
+			justify-content: space-between;
+			align-items: center;
+		}
+		.menu-item {
+			padding: 10px;
+			color: #3b82f6;
+			display: flex;
+			align-items: center;
+			gap: 10px;
+		}
+	}
+	.content-bg {
+		flex: 1;
+		padding: 10px 30px;
+		height: 100vh;
+		overflow-y: auto;
+	}
+}
