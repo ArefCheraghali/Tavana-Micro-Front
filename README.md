@@ -80,14 +80,3 @@ In the project directory, you can run:
 *   **`src/Hooks`**: Defines custom React Hooks to encapsulate reusable logic, such as `useAxios.js` for API calls, `useErrorHandler.js` for error handling, and `useReduxHook.js` for interacting with Redux.
 *   **`src/Pages`**: Contains the main page components of the application, which are typically composed of smaller components from the `Components` directory.
 
-## Contributing
-
-Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
-
-## License
-
-This project is licensed under the [YOUR LICENSE HERE] License - see the LICENSE.md file for details (e.g., MIT License).
-
----
-
-This is a comprehensive starting point. You can further customize it by adding more specific details about your project's goals, architecture decisions, deployment instructions, or contribution guidelines.
